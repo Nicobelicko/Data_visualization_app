@@ -58,7 +58,22 @@ Una vez en funcionamiento, podrás cargar tus archivos CSV y comenzar a explorar
 ├── requirements.txt       # Lista de dependencias del proyecto
 ├── README.md              # Documentación del proyecto
 ├── .gitignore             # Archivos y carpetas ignorados por Git
-└── src/                   # Módulos y funciones auxiliares
-    └── ...                # Otros archivos relacionados
+└── src/                    # Código fuente principal
+│   ├── __init__.py
+│   ├── data/               # Clases para manejo de datos
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+│   │   └── data_processor.py
+│   │
+│   ├── visualization/      # Clases para visualización
+│   │   ├── __init__.py
+│   │   ├── charts.py
+│   │   └── tables.py
+│   │
+│   └── ui/                 # Componentes de interfaz
+│       ├── __init__.py
+│       ├── login.py
+│       ├── sidebar.py
+│       └── pages.py
+│
 ```
-
