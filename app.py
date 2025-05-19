@@ -39,7 +39,7 @@ def main():
             
             with col3:
                 st.info("🤖 **IA**\n\n"
-                    "Realiza análisis automáticos de tus datos")
+                    "Realiza análisis automáticos de tus datos (PROXIMAMENTE)")
                 
     
     
