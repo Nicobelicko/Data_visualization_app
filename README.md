@@ -31,8 +31,8 @@ El objetivo de este aplicativo es permitir a los usuarios cargar sus datos para 
 2. Crea y activa un entorno virtual (opcional pero recomendado):
 
    ```bash
-   python -m venv env
-   source env/bin/activate  # En Windows: env\Scripts\activate
+   python -m venv nombre_entorno
+   En Windows: .\nombre_entorno\Scripts\activate
    ```
 
 3. Instala las dependencias necesarias:
